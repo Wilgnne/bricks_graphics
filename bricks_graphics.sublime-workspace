@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"Gra",
-				"GraphWin\tclass"
+				"gra",
+				"GraphWin"
 			],
 			[
-				"gra",
-				"graphics\tmodule"
+				"s",
+				"setFill"
+			],
+			[
+				"_",
+				"_contruction"
+			],
+			[
+				"w",
+				"wall"
+			],
+			[
+				"re",
+				"Rectangle"
+			],
+			[
+				"get",
+				"getKey\tfunction"
+			],
+			[
+				"d",
+				"draw\tfunction"
+			],
+			[
+				"po",
+				"Point\tclass"
+			],
+			[
+				"Gra",
+				"GraphWin\tclass"
 			],
 			[
 				"cla",
@@ -23,6 +51,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "bricks_toolkit/screen_controller.py",
+			"settings":
+			{
+				"buffer_size": 1103,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
+			"settings":
+			{
+				"buffer_size": 6475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bricks_toolkit/graphics.py",
+			"settings":
+			{
+				"buffer_size": 31551,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -51,6 +104,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"git s",
+				"git: status"
+			],
+			[
+				"git pu",
+				"git: pull"
+			],
+			[
+				"git re",
+				"git: remote add"
+			],
+			[
+				"git add",
+				"git: remote add"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -90,8 +159,14 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/wilgnne/Workspace/bricks_graphics",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit"
+	],
 	"file_history":
 	[
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
 		"/home/wilgnne/Documentos/Python Modules/untitled.py",
 		"/home/wilgnne/Documentos/Python Modules/graphics.sublime-project",
 		"/home/wilgnne/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
@@ -131,8 +206,103 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "bricks_toolkit/screen_controller.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bricks_toolkit/graphics.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 31551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8664,
+								8664
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -142,7 +312,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -167,11 +337,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 121.0
+	},
 	"output.exec":
 	{
 		"height": 121.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -202,12 +380,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 592.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -217,7 +395,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
