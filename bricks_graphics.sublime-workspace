@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Bri",
+				"bricks_toolkit"
+			],
+			[
+				"sc",
+				"screen_controller\tmodule"
+			],
+			[
+				"w",
+				"wall\tstatement"
+			],
+			[
+				"set",
+				"setWidth\tfunction"
+			],
+			[
+				"get",
+				"getP2\tfunction"
+			],
+			[
 				"gra",
 				"GraphWin"
 			],
@@ -16,16 +36,8 @@
 				"_contruction"
 			],
 			[
-				"w",
-				"wall"
-			],
-			[
 				"re",
 				"Rectangle"
-			],
-			[
-				"get",
-				"getKey\tfunction"
 			],
 			[
 				"d",
@@ -51,31 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "bricks_toolkit/screen_controller.py",
-			"settings":
-			{
-				"buffer_size": 1103,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
-			"settings":
-			{
-				"buffer_size": 6475,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bricks_toolkit/graphics.py",
-			"settings":
-			{
-				"buffer_size": 31551,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -104,6 +91,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"gi",
+				"git: status"
+			],
 			[
 				"git s",
 				"git: status"
@@ -161,11 +156,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wilgnne/Workspace/bricks_graphics",
-		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit"
+		"/home/wilgnne/Workspace/bricks_graphics"
 	],
 	"file_history":
 	[
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/menu_controller.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
+		"/home/wilgnne/Workspace/bricks_graphics/car.py",
+		"/home/wilgnne/Workspace/bricks_graphics/.gitignore",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_graphics.sublime-project",
+		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
 		"/home/wilgnne/Documentos/Python Modules/untitled.py",
 		"/home/wilgnne/Documentos/Python Modules/graphics.sublime-project",
@@ -206,103 +207,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "bricks_toolkit/screen_controller.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1103,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
-							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6475,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								888,
-								888
-							]
-						],
-						"settings":
-						{
-							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "bricks_toolkit/graphics.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 31551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8664,
-								8664
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
-							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 16176.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1,4 +1,4 @@
-from graphics import *
+from bricks_toolkit.graphics import *
 
 class BricksWall():
 	"""docstring for BricksWall"""
@@ -14,6 +14,7 @@ class BricksWall():
 		height = self.i * (self.tam + self.esp) + 6
 		self.win = GraphWin('Briks', width, height, autoflush=False)
 		self.contruction()
+		self.win.redraw()
 
 	def contruction(self):
 		self.wall = []
@@ -40,6 +41,18 @@ class BricksWall():
 	def clean(self):
 		for i in range(0, self.i):
 			for j in range(0, self.j):
-				self.wall[j][i][0].setOutline(self.off)
-				self.wall[j][i][1].setFill(self.off)
-				self.wall[j][i][1].setOutline(self.off)
+				self.wall[i][j][0].setOutline(self.off)
+				self.wall[i][j][1].setFill(self.off)
+				self.wall[i][j][1].setOutline(self.off)
+
+	def overlap(self, objects):
+		self.clean()
+		for gameObject in objects:
+			for i in range(0, len(gameObject.mesh)):
+				for j in range(0, len(gameObject.mesh[0])):
+					x = gameObject.position.x + j
+					y = gameObject.position.y + i
+					if gameObject.mesh[i][j] == '1' and x < self.j and y < self.i and x >= 0 and y >= 0:
+						self.wall[y][x][0].setOutline(self.on)
+						self.wall[y][x][1].setOutline(self.on)
+						self.wall[y][x][1].setFill(self.on)
