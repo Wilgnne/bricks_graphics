@@ -4,24 +4,64 @@
 		"selected_items":
 		[
 			[
+				"ne",
+				"netFramerate\tstatement"
+			],
+			[
+				"w",
+				"while\tWhile Loop"
+			],
+			[
+				"ro",
+				"roadList\tstatement"
+			],
+			[
+				"me",
+				"meshCar\tstatement"
+			],
+			[
+				"bri",
+				"bricks_toolkit\tmodule"
+			],
+			[
+				"Vec",
+				"Vector2\tclass"
+			],
+			[
+				"set",
+				"setOutline\tfunction"
+			],
+			[
+				"color",
+				"color_rgb\tfunction"
+			],
+			[
+				"get",
+				"getKey\tfunction"
+			],
+			[
+				"nex",
+				"nextFramerate\tstatement"
+			],
+			[
+				"Tue",
+				"True\tkeyword"
+			],
+			[
+				"vec",
+				"Vector2\tclass"
+			],
+			[
+				"o",
+				"overlap\tfunction"
+			],
+			[
 				"Bri",
 				"bricks_toolkit"
 			],
 			[
 				"sc",
 				"screen_controller\tmodule"
-			],
-			[
-				"w",
-				"wall\tstatement"
-			],
-			[
-				"set",
-				"setWidth\tfunction"
-			],
-			[
-				"get",
-				"getP2\tfunction"
 			],
 			[
 				"gra",
@@ -63,6 +103,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "bricks_toolkit/bricks_behaviour.py",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 844,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -91,6 +148,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sta",
+				"git: status"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"pu",
+				"git: pull"
+			],
 			[
 				"status",
 				"git: status"
@@ -160,14 +229,16 @@
 	],
 	"file_history":
 	[
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
+		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/games.py",
+		"/home/wilgnne/Workspace/bricks_graphics/car.py",
+		"/home/wilgnne/trash",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/menu_controller.py",
-		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
-		"/home/wilgnne/Workspace/bricks_graphics/car.py",
 		"/home/wilgnne/Workspace/bricks_graphics/.gitignore",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_graphics.sublime-project",
 		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
-		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
 		"/home/wilgnne/Documentos/Python Modules/untitled.py",
 		"/home/wilgnne/Documentos/Python Modules/graphics.sublime-project",
 		"/home/wilgnne/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
@@ -207,8 +278,70 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "bricks_toolkit/bricks_behaviour.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python 3/Python3.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

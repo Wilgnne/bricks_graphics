@@ -1,4 +1,5 @@
 from bricks_toolkit.graphics import *
+from bricks_toolkit.bricks_behaviour import *
 
 class BricksWall():
 	"""docstring for BricksWall"""
@@ -58,3 +59,4 @@ class BricksWall():
 						self.wall[y][x][0].setOutline(self.on)
 						self.wall[y][x][1].setOutline(self.on)
 						self.wall[y][x][1].setFill(self.on)
+		self.win.redraw()
