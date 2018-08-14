@@ -4,12 +4,52 @@
 		"selected_items":
 		[
 			[
-				"Gra",
-				"GraphWin\tclass"
+				"Bri",
+				"bricks_toolkit"
+			],
+			[
+				"sc",
+				"screen_controller\tmodule"
+			],
+			[
+				"w",
+				"wall\tstatement"
+			],
+			[
+				"set",
+				"setWidth\tfunction"
+			],
+			[
+				"get",
+				"getP2\tfunction"
 			],
 			[
 				"gra",
-				"graphics\tmodule"
+				"GraphWin"
+			],
+			[
+				"s",
+				"setFill"
+			],
+			[
+				"_",
+				"_contruction"
+			],
+			[
+				"re",
+				"Rectangle"
+			],
+			[
+				"d",
+				"draw\tfunction"
+			],
+			[
+				"po",
+				"Point\tclass"
+			],
+			[
+				"Gra",
+				"GraphWin\tclass"
 			],
 			[
 				"cla",
@@ -52,6 +92,30 @@
 		"selected_items":
 		[
 			[
+				"status",
+				"git: status"
+			],
+			[
+				"gi",
+				"git: status"
+			],
+			[
+				"git s",
+				"git: status"
+			],
+			[
+				"git pu",
+				"git: pull"
+			],
+			[
+				"git re",
+				"git: remote add"
+			],
+			[
+				"git add",
+				"git: remote add"
+			],
+			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			],
@@ -90,8 +154,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/wilgnne/Workspace/bricks_graphics"
+	],
 	"file_history":
 	[
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/menu_controller.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
+		"/home/wilgnne/Workspace/bricks_graphics/car.py",
+		"/home/wilgnne/Workspace/bricks_graphics/.gitignore",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_graphics.sublime-project",
+		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/bgControll.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
 		"/home/wilgnne/Documentos/Python Modules/untitled.py",
 		"/home/wilgnne/Documentos/Python Modules/graphics.sublime-project",
 		"/home/wilgnne/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
@@ -142,7 +218,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -167,11 +243,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 121.0
+	},
 	"output.exec":
 	{
 		"height": 121.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -202,12 +286,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 592.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -217,7 +301,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
