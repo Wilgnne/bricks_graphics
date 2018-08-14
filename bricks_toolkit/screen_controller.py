@@ -2,7 +2,7 @@ from bricks_toolkit.graphics import *
 
 class BricksWall():
 	"""docstring for BricksWall"""
-	def __init__(self,tam = 20, itam = 5, esp = 2, off = color_rgb(124, 124, 124), on = color_rgb(64, 64, 64)):
+	def __init__(self,tam = 20, itam = 5, esp = 2, off = color_rgb(216, 216, 191), on = color_rgb(77, 77, 255)):
 		self.i = 20
 		self.j = 10
 		self.esp = esp
@@ -13,6 +13,7 @@ class BricksWall():
 		width = self.j * (self.tam + self.esp) + 200
 		height = self.i * (self.tam + self.esp) + 6
 		self.win = GraphWin('Briks', width, height, autoflush=False)
+		self.win.setBackground(color_rgb(217, 217, 243))
 		self.contruction()
 		self.win.redraw()
 
@@ -36,6 +37,7 @@ class BricksWall():
 			self.wall.append(line)
 		b = Rectangle(Point(-5, -5), Point(rec.getP2().x + 5, rec.getP2().y + 5))
 		b.setWidth(2)
+		b.setOutline(color_rgb(255, 165, 0))
 		b.draw(self.win)
 
 	def clean(self):
