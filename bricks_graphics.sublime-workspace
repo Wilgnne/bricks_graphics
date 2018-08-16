@@ -4,8 +4,52 @@
 		"selected_items":
 		[
 			[
+				"ran",
+				"randomVector2\tfunction"
+			],
+			[
+				"po",
+				"point\tstatement"
+			],
+			[
+				"re",
+				"return\tkeyword"
+			],
+			[
+				"ve",
+				"velSnake\tstatement"
+			],
+			[
+				"nex",
+				"nextframerate\tstatement"
+			],
+			[
+				"up",
+				"up\tstatement"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
 				"c",
-				"clean\tfunction"
+				"corpo\tstatement"
+			],
+			[
+				"br",
+				"bricks_games\tmodule"
+			],
+			[
+				"die",
+				"dieBricks\tfunction"
+			],
+			[
+				"li",
+				"lifes\tstatement"
+			],
+			[
+				"del",
+				"deltatime\tstatement"
 			],
 			[
 				"w",
@@ -26,10 +70,6 @@
 			[
 				"mes",
 				"meshCar\tstatement"
-			],
-			[
-				"ran",
-				"randint\tstatement"
 			],
 			[
 				"ra",
@@ -68,10 +108,6 @@
 				"Vector2\tclass"
 			],
 			[
-				"re",
-				"redraw"
-			],
-			[
 				"ne",
 				"netFramerate\tstatement"
 			],
@@ -94,10 +130,6 @@
 			[
 				"color",
 				"color_rgb\tfunction"
-			],
-			[
-				"nex",
-				"nextFramerate\tstatement"
 			],
 			[
 				"Tue",
@@ -132,10 +164,6 @@
 				"draw\tfunction"
 			],
 			[
-				"po",
-				"Point\tclass"
-			],
-			[
 				"Gra",
 				"GraphWin\tclass"
 			],
@@ -152,10 +180,10 @@
 	"buffers":
 	[
 		{
-			"file": "main.py",
+			"file": "bricks_games.py",
 			"settings":
 			{
-				"buffer_size": 1865,
+				"buffer_size": 3194,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -164,7 +192,8 @@
 			"file": "bricks_toolkit/bricks_behaviour.py",
 			"settings":
 			{
-				"buffer_size": 348,
+				"buffer_size": 802,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -172,7 +201,16 @@
 			"file": "bricks_toolkit/screen_controller.py",
 			"settings":
 			{
-				"buffer_size": 3540,
+				"buffer_size": 4225,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 2335,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -210,6 +248,10 @@
 				"git: status"
 			],
 			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
 				"sta",
 				"git: status"
 			],
@@ -240,10 +282,6 @@
 			[
 				"git add",
 				"git: remote add"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Install Package"
 			],
 			[
 				"pac",
@@ -288,8 +326,8 @@
 	"file_history":
 	[
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
-		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
 		"/home/wilgnne/Workspace/bricks_graphics/main.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
 		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/games.py",
 		"/home/wilgnne/Workspace/bricks_graphics/car.py",
 		"/home/wilgnne/trash",
@@ -337,24 +375,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.py",
+					"file": "bricks_games.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1865,
+						"buffer_size": 3194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								646,
-								646
+								417,
+								417
 							]
 						],
 						"settings":
@@ -368,7 +406,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -377,15 +415,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 348,
+						"buffer_size": 802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								802,
+								802
 							]
 						],
 						"settings":
@@ -393,10 +431,10 @@
 							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
 							"show_definitions": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -408,15 +446,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3540,
+						"buffer_size": 4225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2890,
-								2890
+								4225,
+								4225
 							]
 						],
 						"settings":
@@ -427,10 +465,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 1972.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 816.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

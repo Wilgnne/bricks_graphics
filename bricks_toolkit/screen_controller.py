@@ -1,5 +1,4 @@
 from bricks_toolkit.graphics import *
-from bricks_toolkit.bricks_behaviour import *
 
 class BricksWall():
 	"""docstring for BricksWall"""
@@ -130,3 +129,11 @@ def dieBricks(frame):
 		 		['0', '1', '1', '0'],
 		 		['0', '1', '1', '0'],
 		 		['1', '0', '0', '1']]
+
+def plot(frame):
+	if frame == 0:
+		return[['0']]
+	if frame == 1:
+		return[['1']]
+	if frame < 0 or frame > 1:
+		return [[]]
