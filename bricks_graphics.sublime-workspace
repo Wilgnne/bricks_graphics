@@ -4,16 +4,76 @@
 		"selected_items":
 		[
 			[
-				"ne",
-				"netFramerate\tstatement"
+				"c",
+				"clean\tfunction"
 			],
 			[
 				"w",
-				"while\tWhile Loop"
+				"wall\tparam"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"get",
+				"getP2\tfunction"
+			],
+			[
+				"car",
+				"carList\tstatement"
+			],
+			[
+				"mes",
+				"meshCar\tstatement"
+			],
+			[
+				"ran",
+				"randint\tstatement"
+			],
+			[
+				"ra",
+				"random\tmodule"
+			],
+			[
+				"el",
+				"else\tkeyword"
+			],
+			[
+				"che",
+				"checkKey\tfunction"
 			],
 			[
 				"ro",
+				"road\tstatement"
+			],
+			[
+				"tr",
+				"translate\tfunction"
+			],
+			[
+				"vec",
+				"Vector2\tclass"
+			],
+			[
+				"Fl",
+				"False\tkeyword"
+			],
+			[
+				"road",
 				"roadList\tstatement"
+			],
+			[
+				"Ve",
+				"Vector2\tclass"
+			],
+			[
+				"re",
+				"redraw"
+			],
+			[
+				"ne",
+				"netFramerate\tstatement"
 			],
 			[
 				"me",
@@ -36,20 +96,12 @@
 				"color_rgb\tfunction"
 			],
 			[
-				"get",
-				"getKey\tfunction"
-			],
-			[
 				"nex",
 				"nextFramerate\tstatement"
 			],
 			[
 				"Tue",
 				"True\tkeyword"
-			],
-			[
-				"vec",
-				"Vector2\tclass"
 			],
 			[
 				"o",
@@ -76,10 +128,6 @@
 				"_contruction"
 			],
 			[
-				"re",
-				"Rectangle"
-			],
-			[
 				"d",
 				"draw\tfunction"
 			],
@@ -104,6 +152,15 @@
 	"buffers":
 	[
 		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 1865,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "bricks_toolkit/bricks_behaviour.py",
 			"settings":
 			{
@@ -112,10 +169,10 @@
 			}
 		},
 		{
-			"file": "main.py",
+			"file": "bricks_toolkit/screen_controller.py",
 			"settings":
 			{
-				"buffer_size": 844,
+				"buffer_size": 3540,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -149,11 +206,11 @@
 		"selected_items":
 		[
 			[
-				"sta",
+				"git",
 				"git: status"
 			],
 			[
-				"git",
+				"sta",
 				"git: status"
 			],
 			[
@@ -225,16 +282,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wilgnne/Workspace/bricks_graphics"
+		"/home/wilgnne/Workspace/bricks_graphics",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit"
 	],
 	"file_history":
 	[
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/screen_controller.py",
+		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
+		"/home/wilgnne/Workspace/bricks_graphics/main.py",
 		"/home/wilgnne/Documentos/Python Projects/Graphics Projects/Brick_2.0/games.py",
 		"/home/wilgnne/Workspace/bricks_graphics/car.py",
 		"/home/wilgnne/trash",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/graphics.py",
-		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/bricks_behaviour.py",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_toolkit/menu_controller.py",
 		"/home/wilgnne/Workspace/bricks_graphics/.gitignore",
 		"/home/wilgnne/Workspace/bricks_graphics/bricks_graphics.sublime-project",
@@ -278,11 +337,42 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "bricks_toolkit/bricks_behaviour.py",
 					"semi_transient": false,
 					"settings":
@@ -294,52 +384,53 @@
 						"selection":
 						[
 							[
-								348,
-								348
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
 							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "main.py",
+					"buffer": 2,
+					"file": "bricks_toolkit/screen_controller.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 844,
+						"buffer_size": 3540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								844,
-								844
+								2890,
+								2890
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "/home/wilgnne/Workspace/bricks_graphics",
 							"show_definitions": false,
-							"syntax": "Packages/Python 3/Python3.tmLanguage",
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -391,6 +482,10 @@
 	"output.mdpopups":
 	{
 		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 121.0
 	},
 	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
 	"project": "bricks_graphics.sublime-project",
