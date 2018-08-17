@@ -20,6 +20,18 @@ class GameObject():
     def setMesh(self, mesh):
         self.mesh = mesh
 
+    def fazgirar(self):
+        transposta = []
+        for j in range(0, len(self.mesh[0])):
+            linha = []
+            for i in range(0, len(self.mesh)):
+                linha.append(self.mesh[i][j])
+            transposta.append(linha)
+        espelhada = []
+        for i in transposta[::-1]:
+            espelhada.append(i)
+        self.setMesh(espelhada)
+
 def randomVector2(exep = []):
     fim = False
     while fim == False:

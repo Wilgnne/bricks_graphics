@@ -79,12 +79,13 @@ class BricksWall():
 
 	def pointWall(self, wall):
 		self.clean(self.auxWall)
-		for i in range(0, 4):
-			for j in range(0,4):
+		for i in range(0, len(wall)):
+			for j in range(0,len(wall[0])):
 				if wall[i][j] == '1':
 					self.auxWall[i][j][0].setOutline(self.on)
 					self.auxWall[i][j][1].setOutline(self.on)
 					self.auxWall[i][j][1].setFill(self.on)
+		self.win.redraw()
 
 def lifeBricks(life):
 	if life == 4:
