@@ -25,18 +25,21 @@ class Topgear():
             r.setMesh(road)
             roadList.append(r)
         speed = 0
-        framerate = 1.0/60
+        framerate = 1.0/120
         now = time.time()
         nextFramerate = now + framerate
         t= 0
         f = 0
-        deltatime = framerate 
-        while lifes > 0:
+        deltatime = framerate
+        self.bech = []
+        key = ''
+        while key != 'r':
+        #for x in range(0, 100):
             t = time.time()
             key = self.wall.win.checkKey()
             if speed > 0:
                 if cont == 8:
-                    rand = random.randint(0, 2)
+                    rand = random.randint(0, 6)
                     if rand == 1:
                         car = GameObject(Vector2(2, -4))
                         car.setMesh(meshCar)
@@ -71,7 +74,7 @@ class Topgear():
             if key ==  'a' and player.position.x > 1:
                 player.position = Vector2(2, 16)
 
-            self.wall.overlap(roadList + carList + [player])
+            self.wall.matrizOverlap(roadList + carList + [player])
             self.wall.pointWall(lifeBricks(lifes))
 
             while now < nextFramerate:
@@ -80,13 +83,14 @@ class Topgear():
             nextFramerate += framerate
             f = time.time()
             deltatime = f - t
+            self.bech.append(1.0/deltatime)
 
     def die(self, life, p, road, cars, bricks):
         life = life - 1
         for cont in range(0, 2):
             anim = GameObject(p.position)
             anim.setMesh(dieBricks(cont))
-            bricks.overlap(road + cars + [anim])
+            bricks.matrizOverlap(road + cars + [anim])
             bricks.win.redraw()
             time.sleep(0.2)
         return life
@@ -154,7 +158,7 @@ class SnakeGame():
                 lifes = self.die(lifes, snake.corpo[0], self.wall)
                 snake.create()
 
-            self.wall.overlap(snake.getBody() + [point])
+            self.wall.matrizOverlap(snake.getBody() + [point])
             self.wall.pointWall(lifeBricks(lifes))
 
             while now < nextFramerate:
@@ -171,7 +175,7 @@ class SnakeGame():
             pos.x = pos.x - 2
             anim = GameObject(pos)
             anim.setMesh(dieBricks(cont))
-            bricks.overlap([anim])
+            bricks.matrizOverlap([anim])
             bricks.win.redraw()
             time.sleep(0.2)
         return life
